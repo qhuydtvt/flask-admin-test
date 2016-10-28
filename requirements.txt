@@ -1,0 +1,21 @@
+# ----------------------
+# Flask
+# ----------------------
+flask
+mongoengine
+flask-login
+flask-mongoengine
+
+
+# ----------------------
+# Testing
+# ----------------------
+mock
+
+
+# ----------------------
+# Production Server
+# ----------------------
+gevent
+gunicorn
+

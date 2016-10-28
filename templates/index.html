@@ -1,0 +1,14 @@
+{% extends "template.html" %}
+{% block content %}
+    <div class="w3-row-padding">
+      {% for portfolio in porfolios %}
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="{{ portfolio.image }}" alt="{{ portfolio.title }}" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>{{ portfolio.title }}</b></p>
+        <p>{{ portfolio.description }}</p>
+      </div>
+    </div>
+      {% endfor %}
+  </div>
+{% endblock %}
